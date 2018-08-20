@@ -1,0 +1,220 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"g",
+				"groceries"
+			],
+			[
+				"slide",
+				"slideToggle"
+			],
+			[
+				"re",
+				"resize"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Study/Java Script Curcuit/Unit 6/first_project/js/main.js",
+		"/C/Study/Java Script Curcuit/Unit 6/first_project/index.html",
+		"/C/Study/Java Script Curcuit/Unit 8/unit-8-lesson-2-master-mendenhall/js/main.js",
+		"/C/Study/Java Script Curcuit/Unit 8/unit-8-lesson-2-master-mendenhall/index.html",
+		"/C/Study/Java Script Curcuit/Unit 8/firebase/js/main.js",
+		"/C/Study/Java Script Curcuit/Unit 8/firebase/index.html",
+		"/C/Study/Java Script Curcuit/Unit 8/unit-8-lesson-2-master/index.html",
+		"/C/Study/Java Script Curcuit/Unit 8/unit-8-lesson-2-master/css/style.css",
+		"/C/Study/Java Script Curcuit/Unit 8/unit-8-lesson-2-master/js/main.js",
+		"/C/Study/Java Script Curcuit/Unit 8/firebase/css/main.css",
+		"/C/Study/Java Script Curcuit/Unit 8/firebase/images/post.jpeg",
+		"/C/Study/Java Script Curcuit/Unit 8/Google API and Handlerbars.js",
+		"/C/Study/Java Script Curcuit/Unit 8/Google API and Handlerbars",
+		"/C/Study/Java Script Curcuit/Unit 8/unit-8-lesson-3-master/js/main.js",
+		"/C/Study/Java Script Curcuit/Unit 8/unit-8-lesson-3-master/css/style.css",
+		"/C/Study/Java Script Curcuit/Unit 8/unit-8-lesson-3-master/index.html",
+		"/C/Study/Java Script Curcuit/Unit 8/unit-8-lesson-3-master/js/handlebars-v4.0.5.js",
+		"/C/Study/Java Script Curcuit/Unit 8/unit-8_lesson-1-code-challenge-consume-omdb-movie-data_olga-mendenhall/style.css",
+		"/C/Study/Java Script Curcuit/Unit 8/unit-8_lesson-1-code-challenge-consume-omdb-movie-data_olga-mendenhall/main.js",
+		"/C/Study/Java Script Curcuit/Unit 8/unit-8_lesson-1-code-challenge-consume-omdb-movie-data_olga-mendenhall/index.html",
+		"/C/Study/Java Script Curcuit/Unit 8/API/js/main.js",
+		"/C/Study/Java Script Curcuit/Unit 8/API/api.html",
+		"/C/Study/Java Script Curcuit/Unit8/js/main.js",
+		"/C/Study/Java Script Curcuit/Unit8/api.html",
+		"/C/Study/Java Script Curcuit/Unit 7/unit-7-lesson-4-master/index.html",
+		"/C/Study/Java Script Curcuit/Unit 5/Unit5 Questions.js",
+		"/C/Study/Java Script Curcuit/Unit 7/unit-7-lesson-4-master/css/style.css",
+		"/C/Study/Java Script Curcuit/Unit 7/unit-7-lesson-4-master/js/main.js",
+		"/C/Study/Java Script Curcuit/Unit 7/Lesson 3 exaples/js/main.js",
+		"/C/Study/Java Script Curcuit/Unit 7/Lesson 3 exaples/ToDoList.html",
+		"/C/Study/Java Script Curcuit/Unit 7/Lesson 3 exaples/main.js",
+		"/C/Study/Java Script Curcuit/Unit 7/unit-7-lesson-2-master/index.html",
+		"/C/Study/Java Script Curcuit/Unit 7/unit-7-lesson-2-master/css/style.css",
+		"/C/Study/Java Script Curcuit/Unit 7/unit-7-lesson-2-master/js/main.js",
+		"/C/Study/Java Script Curcuit/Unit 6/unit-6-lesson-4-master/index.html",
+		"/C/Study/Java Script Curcuit/Unit 6/unit-6-lesson-4-master/css/style.css",
+		"/C/Study/Java Script Curcuit/Unit 6/unit-6-lesson-4-master/js/main.js",
+		"/C/Users/Olga/Desktop/first_project/index.html",
+		"/C/Users/Olga/Desktop/first_project/js/main.js",
+		"/C/Study/Java Script Curcuit/Unit 6/first_project/js/jquery-3.3.1.js",
+		"/C/Study/Java Script Curcuit/Unit 3/Challenge Problem",
+		"/C/Study/Java Script Curcuit/Unit 4/function Contact (firstName, lastName, phone, emai.js",
+		"/C/Study/Java Script Curcuit/Unit 4/unit-4_lesson-2-code-challenge-contact-book-part-4_olga-mendenhall.zip",
+		"/C/Study/Java Script Curcuit/Unit 2/Unit 2 challenge.js"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

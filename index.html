@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+  <html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+
+      <title>Final Project</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">  
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    </head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+<!-- Nav Bar -->
+
+
+  <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Got Coffee? </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#section1">Menu</a></li>
+        <li><a href="#section2">Reservation</a></li>
+        <li><a href="#section3">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+
+      <div  id="section1" class="container-fluid">
+         <h1><span class="name" style="font-family: 'Pacifico', cursive; font-size: 50pt;">Monk’s Cafe</span></h1>
+         <h3>“The Coffee Shop”</h3>
+
+         <p></p>
+
+      </div>
+
+
+
+<!-- Hero Image -->
+
+<div class="container-fluid hero-image">
+  <div class="row">
+   <!--<img class="hero-image" src="img\toms-restaurant.jpg">-->
+ </div>
+</div>
+
+<!-- Reservation Section -->
+
+ <div  id="section2" class="container-fluid">
+
+<h1>Reservations</h1>
+ <div class="row">
+  <div class="col-lg-6">
+  <h3>Make a Reservation</h3>
+
+  <form class="form-horizontal reserve" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-lg-6" for="usr">Name </label>
+      <div class="col-lg-6">
+        <input type="text" class="form-control" id="usr" placeholder="Enter email" name="email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-lg-6" for="date">Date</label>
+      <div class="col-lg-6">          
+        <input type="date" class="form-control" id="date" placeholder="Enter password" name="date">
+      </div>
+    </div>
+
+    <!--<div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label><input type="checkbox" name="remember"> Remember me</label>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="button" class="btn btn-default">Confirm</button>
+      </div>
+    </div>
+  </form>
+
+</div>
+
+  <div class="col-lg-6"> 
+    <h3>Existing Reservations</h3>
+
+  <table id="reserved" class="table table-hover">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>xx/xx/xx</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>xx/xx/xx</td>
+      </tr>
+      <tr>
+        <td>Julie</td>
+        <td>xx/xx/xx</td>
+      </tr>
+    </tbody>
+  </table></div>
+
+
+ </div> 
+
+</div>
+
+<div id="section3" class="container-fluid">
+
+<h1>Come Dine with Us</h1>
+
+<div id="googleMap" style="height:400px;width:100%;">  
+
+<div class="row">
+  <div class="placeholder">Map Here (lat: 40.8054491, lng: -73.9654415)</div>
+</div>
+
+</div>
+
+
+
+</div>
+
+<div id="reviews" class="container-fluid">
+
+<h1>Customer Reviews</h1>
+<div class="row">
+
+  <div class="col-lg-6">  
+    <img id="jerry" class="img-responsive" src="img/jerry.jpg" alt="Jerry"> 
+  </div>
+
+
+  <div class="col-lg-6"> 
+
+ <div class="currentReview">
+    <p>“Big lettuce, big carrots, tomatoes like volleyballs.”
+      <br>
+— Jerry Seinfeld, on The BIG Salad </p>
+</div>
+
+</div>
+</div> 
+</div>
+
+<footer class="container-fluid text-center custom">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Final project by Olga Mendenhall <a href="https://www.olganova.com" title="Visti OlgaNova Studio">www.olganova.com</a></p>
+</footer>
+
+
+
+
+
+
+
+<!--Script tag for JQuery goes right above our JS tag-->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<!--Goes right above closing body tag-->
+    <script src="js/main.js"></script>
+
+    </body>
+  </html>

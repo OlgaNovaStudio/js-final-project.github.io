@@ -1,0 +1,98 @@
+body {
+	text-align: center;
+	/*font-family: 'Raleway', sans-serif !important;*/
+	font-family: 'Titillium Web', sans-serif !important;
+	font-weight: 200 !important;
+
+	position: relative; 
+  }
+  #section1 {padding-top:10px;height:200px;}
+  #section2 {padding-top:30px;height:400px;color: #fff; background-color: #19263d;}
+  #section3 {padding-top:50px;height:500px;}
+}
+
+.name {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-size: 50pt;
+
+}
+
+h2 {
+	font-family: 'Titillium Web', sans-serif !important;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-weight: 600 !important;
+	margin-bottom: 10px !important;
+
+}
+
+#jerry {
+	margin: 20px auto;
+	height: 150px;
+	float: right;
+}
+
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+ .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+
+   .navbar {
+      margin-bottom: 0px;
+  }
+
+  #existingReserve {
+  }
+
+  .hero-image {
+  	max-height: 500px;
+		min-height: 500px;
+  	background-image: url("https://s.blogcdn.com/slideshows/images/slides/214/781/9/S2147819/slug/l/148559668-1.jpg") !important;
+  	height: 50%;
+  	background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  #reserved {
+  	width: 70%;
+  	margin: 0 auto;
+  }
+
+  .reserve {
+  	margin: 0 auto;
+  }
+
+  .custom {
+  	height: 100px;
+  	margin: 0 auto;
+  }
+
+  #reviews{
+  	background-color: #d8d8d8;
+  }
+
+  .currentReview {
+  	font-size: 20px;
+  	text-align: left;
+  	padding: 20px;
+  }
+
+  .placeholder {
+  	width:50%;
+  	height: 250px;
+  	background-color: gray;
+  	margin: auto;
+  	text-align: center
+  }
