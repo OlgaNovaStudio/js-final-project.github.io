@@ -9,7 +9,8 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">  
   <link rel="stylesheet" href="css/style.css" type="text/css">
 
     </head>
@@ -42,7 +43,7 @@
 </nav> 
 
       <div  id="section1" class="container-fluid">
-         <h1><span class="name" style="font-family: 'Pacifico', cursive; font-size: 50pt;">Monk’s Cafe</span></h1>
+         <h1><span class="name" style="font-family: 'Pacifico', cursive; font-size: 50pt;">Olga’s Cafe</span></h1>
          <h3>“The Coffee Shop”</h3>
 
          <p></p>
@@ -68,27 +69,19 @@
   <div class="col-lg-6">
   <h3>Make a Reservation</h3>
 
-  <form class="form-horizontal reserve" action="/action_page.php">
+  <form class="form-horizontal" id="reservation-form" action="/action_page.php">
     <div class="form-group">
       <label class="control-label col-lg-6" for="usr">Name </label>
       <div class="col-lg-6">
-        <input type="text" class="form-control" id="usr" placeholder="Enter email" name="email">
+        <input type="text" class="form-control name" id="name" placeholder="Enter Name" name="name">
       </div>
     </div>
     <div class="form-group">
       <label class="control-label col-lg-6" for="date">Date</label>
       <div class="col-lg-6">          
-        <input type="date" class="form-control" id="date" placeholder="Enter password" name="date">
+        <input type="date" class="form-control date" id="date" placeholder="Enter date" name="date">
       </div>
     </div>
-
-    <!--<div class="form-group">        
-      <div class="col-sm-offset-2 col-sm-10">
-        <div class="checkbox">
-          <label><input type="checkbox" name="remember"> Remember me</label>
-        </div>
-      </div>
-    </div> -->
 
     <div class="form-group">        
       <div class="col-sm-offset-2 col-sm-10">
@@ -102,27 +95,26 @@
   <div class="col-lg-6"> 
     <h3>Existing Reservations</h3>
 
-  <table id="reserved" class="table table-hover">
+  <table class="table table-hover" id="reserved">
     <thead>
       <tr>
         <th>Name</th>
         <th>Date</th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <td>John</td>
-        <td>xx/xx/xx</td>
-      </tr>
-      <tr>
-        <td>Mary</td>
-        <td>xx/xx/xx</td>
-      </tr>
-      <tr>
-        <td>Julie</td>
-        <td>xx/xx/xx</td>
-      </tr>
+    <tbody class="reservations">
+
+
     </tbody>
+        <!-- template for reservation-list -->
+    <script id="reserve-template" type="text/x-handlebars-template">
+        <tr>
+        <td>{{name}}</td>
+        <td>{{date}}   <i class="fa fa-trash delete"></i></td>
+      </tr>
+    
+    </script>
+
   </table></div>
 
 
@@ -137,7 +129,7 @@
 <div id="googleMap" style="height:400px;width:100%;">  
 
 <div class="row">
-  <div class="placeholder">Map Here (lat: 40.8054491, lng: -73.9654415)</div>
+ 
 </div>
 
 </div>
@@ -179,13 +171,24 @@
 
 
 
+ <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
 
+<!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 
-<!--Script tag for JQuery goes right above our JS tag-->
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+ <!-- bootstrap js -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<!--Goes right above closing body tag-->
-    <script src="js/main.js"></script>
+  <!-- handlebars -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+
+<!-- custom js -->    
+<script src="js/main.js"></script>
+
+  <!-- google maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDbt1M_Y1NT5NIZ27O1y0L-PXT5-bEIjs&callback=initMap"
+  async defer></script>
 
     </body>
   </html>
