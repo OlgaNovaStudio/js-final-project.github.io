@@ -79,16 +79,15 @@ getReservations ();
 
 
 
-$('#reserve-template').on('click', '.delete', function (e) {
+$('.reservations').on('click', '.delete', function (e) {
   // Get the ID for the comment we want to update
-  var id = $(e.target).parent().data('id') 
+  var id = $(e.target).parent().data('id'); 
 
   // find comment whose objectId is equal to the id we're searching with
-  var reservationsReference = database.ref('reservations/' + id)
-
+  var reservationsReference = database.ref('reservations/' + id);
 
   // Use remove method to remove the comment from the database
-  reservationsReference.remove()
+  reservationsReference.remove();
 });
 
     
