@@ -81,7 +81,7 @@ getReservations ();
 
 $('.reservations').on('click', '.delete', function (e) {
   // Get the ID for the comment we want to update
-  var id = $(e.target).parent().data('id'); 
+  var id = $(e.target).parent().parent().data('id'); 
 
   // find comment whose objectId is equal to the id we're searching with
   var reservationsReference = database.ref('reservations/' + id);
